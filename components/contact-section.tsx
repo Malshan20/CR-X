@@ -108,8 +108,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-orbitron text-lg mb-1">Visit Us</h3>
-                  <p className="text-gray-400">123 Tech Boulevard</p>
-                  <p className="text-gray-400">Innovation District, TX 75001</p>
+{/*                   <p className="text-gray-400"></p> */}
+                  <p className="text-gray-400">Kurunegala District, Sri Lanka</p>
                 </div>
               </div>
 
@@ -119,7 +119,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-orbitron text-lg mb-1">Call Us</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+1 (285) 803-2961</p>
                   <p className="text-gray-400">Mon-Fri, 9am-6pm</p>
                 </div>
               </div>
