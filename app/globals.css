@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --card: 0 0% 3%;
+  --card-foreground: 0 0% 100%;
+  --popover: 0 0% 3%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 267 100% 60%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 320 100% 60%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 0 0% 70%;
+  --accent: 267 100% 15%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 267 30% 20%;
+  --input: 267 30% 20%;
+  --ring: 267 100% 60%;
+  --radius: 0.5rem;
+}
+
+body {
+  @apply bg-black text-white;
+  font-family: var(--font-inter);
+}
+
+.font-orbitron {
+  font-family: var(--font-orbitron);
+}
+
+/* Custom animations */
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 15px 0 rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px 5px rgba(139, 92, 246, 0.5);
+  }
+}
+
+.glow-effect {
+  animation: glow 3s ease-in-out infinite;
+}
+
